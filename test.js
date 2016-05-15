@@ -1,22 +1,7 @@
-$("[data-media]").on("click", function(e) {
-    e.preventDefault();
+$(".popup").click(function () {
     var $this = $(this);
-    var videoUrl = $this.attr("data-media");
-    var popup = $this.attr("href");
-    var $popupIframe = $(popup).find("iframe");
-    
-    $popupIframe.attr("src", videoUrl);
-    
-    $this.closest(".page").addClass("show-popup");
-});
-
-$(".popup").on("click", function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    
-    $(".page").removeClass("show-popup");
-});
-
-$(".popup > iframe").on("click", function(e) {
-    e.stopPropagation();
+    var $iframe = $("<iframe>").attr("src", $this.data("link")).css({"width": 400, "height": 300});
+    var $title = $("<h1>").text($this.data("title"));
+    $("#video-view").html($title).append($iframe);
+    $iframe.wrap("<div class='class-video'>");
 });
