@@ -248,6 +248,7 @@ ul.featured_services {
 	clear: both;
 	height: 240px;
 	width: 960px;
+  position: abosulte;
 	margin: 0 auto;
 	background: url('images/hr_shadow.png') no-repeat bottom;
 }
@@ -272,19 +273,15 @@ ul.featured_services li.service_2 h3 {
 	background: url('images/icn_service_2.png') no-repeat; background-position: 0 10px;
 }
 
-ul.featured_services li.service_3 h3{
-	background: url('images/icn_service_3.png') no-repeat; background-position: 0 10px;
-}
-
 ul.featured_services p {
 	border-left: 3px solid #CDE0E4;
-	margin: 10px 0 10px 15px;
+	margin: 20px 0 10px 15px;
 	padding: 0 0 0 25px;
 }
 
 .button_1 {
 	display: block;
-	width: 133px;
+	width: 233px;
 	height: 28px;
 	-moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px;
 	text-align: center;
