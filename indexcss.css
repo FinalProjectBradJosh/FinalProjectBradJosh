@@ -171,6 +171,7 @@ article.main_display img {
 	position: absolute;
 	top: 23px;
 	left: 19px;
+  
 }
 
 article.banner_new {
@@ -197,7 +198,7 @@ article.main_display .display_gloss {
 
 article.feature_text {
 	float: right;
-	width: 450px;
+	width: 580px;
 	margin: 60px 10px 0 0;
 }
 
@@ -415,3 +416,4 @@ footer .logo {
 	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
 	color: #5E8C92;
 }
+
