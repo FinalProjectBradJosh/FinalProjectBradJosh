@@ -36,7 +36,7 @@ function drop(ev)
   else if(ev.target.id == "div1")
   {
     answer1 = false;
-     document.getElementById("check1").innerHTML = "That should be one!";
+     document.getElementById("check1").innerHTML = "Remember that we can't create clouds they have to be around already.";
     ev.target.appendChild(document.getElementById(image));
   }
   
@@ -44,7 +44,7 @@ function drop(ev)
   else if(ev.target.id == "div2")
   {
     answer2 = false;
-     document.getElementById("check2").innerHTML = "That should be two!";
+     document.getElementById("check2").innerHTML = "It would help to re-read the section about what they shoot into the clouds.";
     ev.target.appendChild(document.getElementById(image));
   }
   
@@ -52,7 +52,7 @@ function drop(ev)
   else if(ev.target.id == "div3")
   {
     answer3= false;
-     document.getElementById("check3").innerHTML = "That should be three!";
+     document.getElementById("check3").innerHTML = "Be sure to watch the educational news report on the front page!";
     ev.target.appendChild(document.getElementById(image));
   }
   
