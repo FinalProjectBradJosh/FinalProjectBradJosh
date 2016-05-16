@@ -35,8 +35,8 @@ a:link, a:visited {
 }
 
 .wrapper {
-	width: 1280px;
-	margin:auto;
+	width: 1130px;
+	margin:0 auto;
 }
 
 
@@ -338,12 +338,14 @@ article.about_us_blurb img {
 
 article.about_us_blurb h3 {
 	font-size: 25px;
+  text-align: center;
 	color: #168FAD;
 	margin: 10px 0;
 }
 
 article.about_us_blurb p {
-	margin: 5px 20px 30px 10px;
+	margin: 5px 20px 30px 400px;
+  text-align: center;
 }
 
 article.testimonials {
@@ -363,8 +365,8 @@ article.testimonials {
 /* Footer */
 
 footer {
-	clear: both;
-	height: 400px;
+  text-align: center;
+	height: 100px;
 	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
 	color: #5E8C92;
 }
@@ -392,7 +394,8 @@ footer .column {
 /* Copyright/Logo */
 
 footer p.copyright_notice {
-	clear: both;
+	margin:auto;
+  text-align: center;
 	padding: 20px 0 0 0;
 }
 
@@ -403,4 +406,12 @@ footer .logo {
 	background: url('images/logo.png') no-repeat;
 	margin: -40px 10px 0 0;
 	text-indent: -5000px;
+}
+
+.Copyright{
+  text-align: center;
+  margin-left: 130px;
+  height: 100px;
+	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
+	color: #5E8C92;
 }
