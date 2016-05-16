@@ -247,7 +247,7 @@ article.feature_text a:active {
 ul.featured_services {
 	clear: both;
 	height: 240px;
-	width: 960px;
+	width: 1210px;
   position: abosulte;
 	margin: 0 auto;
 	background: url('images/hr_shadow.png') no-repeat bottom;
@@ -403,3 +403,4 @@ footer .logo {
 	margin: -40px 10px 0 0;
 	text-indent: -5000px;
 }
+
