@@ -415,9 +415,9 @@ footer .logo {
 
 .Copyright{
   text-align: center;
-  padding: 20px 0 0 0;
+  padding: 42px 0 0 0;
   margin-left: 130px;
-  height: 80px;
+  height: 40px;
 	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
 	color: #5E8C92;
 }
