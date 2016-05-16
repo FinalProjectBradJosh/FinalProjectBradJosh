@@ -256,7 +256,7 @@ ul.featured_services {
 ul.featured_services li {
 	width: 370px;
 	margin: 0 10px;
-	float: left;
+	float: right;
 }
 
 ul.featured_services h3 {
