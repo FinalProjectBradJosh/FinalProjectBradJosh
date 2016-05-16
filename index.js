@@ -1,20 +1,21 @@
 $("#popup").click(function () {
-    var $this = $(this);
-    var $iframe = $("<iframe>").attr("src", $this.data("link")).css({"width": 450, "height": 325,
+    var $this = $(this); //var1
+    var $iframe = $("<iframe>").attr("src", /*var2*/ $this.data("link")).css({"width": 450, "height": 325,
    'align-content': 'center',
     'border': '5px solid #5E8C92',
-    'padding': '0.5px',                      
+    'padding': '0.5px', 
+                                                                     
                                                                      
                                                                      
                                                                     
     });
 
     
-    var $title = $("<h1>").text($this.data("title"));
+    var $title = $("<h1>").text($this.data("title")); //var3
     $("#video-view").html($title).append($iframe);
     $iframe.wrap("<div class='class-video'>");
   
-
+//vars on other files
        
 });
 
