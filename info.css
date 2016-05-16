@@ -259,7 +259,7 @@ ul.featured_services {
 
 ul.featured_services li {
 	width: 380px;
-	margin:0px 20px;
+	margin:0px 020px;
 	float: right;
 }
 
@@ -299,7 +299,7 @@ ul.featured_services p {
 	font-weight: bold;
 	font-size: 12px;
 	cursor: pointer;
-  margin:0px 40px;
+  margin:0px 00px;
 }
 
 .button_1 {
@@ -425,3 +425,4 @@ footer .logo {
 
 #centerer{text-align:center;width:60%;margin:auto;}
 #margin{text-align:left;width:60%;margin:auto;}
+#closer{margin-top:-180px}
