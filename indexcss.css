@@ -285,7 +285,7 @@ ul.featured_services p {
 
 .button_1 {
 	display: block;
-	width: 233px;
+	width: 100%; /*was 233*/
 	height: 28px;
 	-moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px;
 	text-align: center;
@@ -295,7 +295,7 @@ ul.featured_services p {
 	font-weight: bold;
 	font-size: 12px;
 	cursor: pointer;
-  margin:0 auto;
+  margin:0 110px;
 }
 
 .button_1 {
