@@ -249,9 +249,10 @@ ul.featured_services {
 	height: 240px;
 	width: 1280px;
   position: abosulte;
-	margin: 0 10px;
+	margin: auto;
 	background: url('images/hr_shadow.png') no-repeat bottom;
 }
+
 
 ul.featured_services li {
 	width: 370px;
