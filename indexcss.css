@@ -259,7 +259,7 @@ ul.featured_services {
 
 ul.featured_services li {
 	width: 380px;
-	margin:115px 20px;
+	margin:120px 20px;
 	float: right;
 }
 
@@ -421,4 +421,3 @@ footer .logo {
 	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
 	color: #5E8C92;
 }
-
