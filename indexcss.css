@@ -253,10 +253,9 @@ ul.featured_services {
 	background: url('images/hr_shadow.png') no-repeat bottom;
 }
 
-
 ul.featured_services li {
-	width: 420px;
-	margin: auto;
+	width: 380px;
+	margin:0 20px;
 	float: right;
 }
 
@@ -296,7 +295,7 @@ ul.featured_services p {
 	font-weight: bold;
 	font-size: 12px;
 	cursor: pointer;
-  margin:0 50px;
+  margin:0 40px;
 }
 
 .button_1 {
