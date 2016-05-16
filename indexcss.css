@@ -178,7 +178,7 @@ article.banner_new {
 	position: relative;
 	left: 100px;
 	top: -195px;
-	background-image: url('feature_banner.png') no-repeat;
+	background: url('feature_banner.png') no-repeat;
 	width: 940px;
 	height: 168px;
 }
