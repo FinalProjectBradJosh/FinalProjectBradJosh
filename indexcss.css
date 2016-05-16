@@ -13,14 +13,14 @@ header, footer, aside, nav, article {display: block;}
 
 /* Essentials */
 
-body {
+body { /*cs selector 1*/
 	background: #F9FCFC;
 	color: #666666;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 }
 
-p {
+p { /*cs selector 2*/
 	line-height: 150%;
 }
 
@@ -29,12 +29,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: lighter; /*counteract strong browser anti-aliasing*/
 }
 
-a:link, a:visited {
+a:link, a:visited { /*cs selector 3*/
 	color: #168FAD;
 	text-decoration: none;
 }
 
-.wrapper {
+.wrapper { /*cs selector 4*/
 	width: 1130px;
 	margin:0 auto;
 }
@@ -62,7 +62,7 @@ header {
 
 /* Logo */
 
-h1.logo a {
+h1.logo a { /*cs selector 5*/
 	display: block;
 	width: 221px;
 	height: 65px;
@@ -89,7 +89,7 @@ header li {
 	margin: 0 10px 0 0;
 }
 
-header li a {
+header li a { /*cs selector 6*/
 	color: #2C6069;
 	display: block;
 	width: 90px;
@@ -115,7 +115,7 @@ header li a {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DFF0F3');
 }
 
-header li a:hover {
+header li a:hover { /*cs selector 7*/
 	/* Fallback Color */
 	background: #FFFFFF;
 	/* Firefox 3.6+ */
@@ -151,13 +151,13 @@ header li.active a {
 
 /* Main Feature */
 
-section.home_feature {
+section.home_feature { /*cs selector 8*/
 	height: 440px;
 	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
 	-moz-box-shadow: inset 0 5px 9px #66888E; -webkit-box-shadow: inset 0 5px 9px #66888E; box-shadow: inset 0 5px 9px #66888E;
 }
 
-article.main_display {
+article.main_display { /*cs selector 9*/
 	display: block;
 	float: left;
 	position: relative;
@@ -248,7 +248,7 @@ article.feature_text a:active {
 
 /* Featured Services */
 
-ul.featured_services {
+ul.featured_services { /*cs selector 10*/
 	clear: both;
 	height: 240px;
 	width: 1280px;
