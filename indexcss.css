@@ -152,7 +152,7 @@ header li.active a {
 /* Main Feature */
 
 section.home_feature {
-	height: 400px;
+	height: 440px;
 	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
 	-moz-box-shadow: inset 0 5px 9px #66888E; -webkit-box-shadow: inset 0 5px 9px #66888E; box-shadow: inset 0 5px 9px #66888E;
 }
@@ -199,7 +199,7 @@ article.main_display .display_gloss {
 article.feature_text {
 	float: right;
 	width: 580px;
-	margin: 20px -80px 0px 0px;
+	margin: 35px -80px 0px 0px;
   
 }
 
@@ -422,4 +422,3 @@ footer .logo {
 	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
 	color: #5E8C92;
 }
-
