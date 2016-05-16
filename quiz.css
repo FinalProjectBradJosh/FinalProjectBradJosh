@@ -252,7 +252,7 @@ ul.featured_services {
 	clear: both;
 	height: 240px;
 	width: 1280px;
-  position: abosulte;
+  position: absolute;
 	margin: auto;
 	background: url('images/hr_shadow.png') no-repeat bottom;
 }
@@ -424,6 +424,13 @@ footer .logo {
 }
 
 
+#theForm {
+    margin: auto;
+    width: 20%;
+    border: 1px solid #66888E;
+    padding: 10px;
+}
+
 .droptarget1 {
      
     width: 100px; 
@@ -456,5 +463,10 @@ footer .logo {
 table {
     border: 1px solid black;
   width:40%;
+  margin: auto;
     height:4em;
+  text-align:center;
 }
+
+#title{text-align:center;}
+#quizTitle{text-align:center;}
