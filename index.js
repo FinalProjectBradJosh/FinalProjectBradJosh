@@ -21,7 +21,7 @@ $("#popup").click(function () {
 $(document).ready(function(){
     $(".button_1").click(function(){
         $(".spacer").css({"padding-top": "260px"});
-        $("ul.featured_services li.service_3").css({"padding-right": "260px"});
+        $("ul.featured_services li.service_3").css({"padding-right": "190px"});
     });
          
 });
