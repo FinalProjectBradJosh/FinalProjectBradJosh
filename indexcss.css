@@ -177,7 +177,7 @@ article.main_display img {
 article.banner_new {
 	position: absolute;
 	left: 150px;
-	top: 400px;
+	top: 393px;
 	background: url('feature_banner.png') no-repeat;
 	width: 940px;
 	height: 168px;
@@ -259,7 +259,7 @@ ul.featured_services {
 
 ul.featured_services li {
 	width: 380px;
-	margin:0 20px;
+	margin:90px 20px;
 	float: right;
 }
 
@@ -370,6 +370,7 @@ article.testimonials {
 
 footer {
   text-align: center;
+  margin-top:50px;
 	height: 100px;
 	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
 	color: #5E8C92;
