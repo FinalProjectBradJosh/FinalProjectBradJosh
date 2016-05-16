@@ -30,6 +30,7 @@ var answer2 = false;
 // variable 4
 var answer3 = false;
 
+
 // function 3, 1 parameter
 function drop(ev)
 {
@@ -85,17 +86,20 @@ function video()
   return false;
 }
 
-
+// variable 6
+var answer4 = false;
+// variable 7
+var answer5 = false;
 
 //function 5
 $(".popup").click(function () {//event capture 3
-//variable 6
+//variable 8
     var $this = $(this);
   if(answer1===true&answer2===true&answer3===true){
     var $iframe = $("<iframe>").attr("src", $this.data("link")).css({"width": 400, "height": 300});
-//variable 7
+//variable 9
     var $title = $("<h1>").text($this.data("title"));
-    $("#video-view").html($title).append($iframe);
+    $("#video-view").html($title).append($iframe);var checker=answer4;//variable 10
     $iframe.wrap("<div class='class-video'>");}
 });
 
