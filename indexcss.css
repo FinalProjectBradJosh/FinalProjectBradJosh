@@ -254,9 +254,9 @@ ul.featured_services {
 }
 
 ul.featured_services li {
-	width: 300px;
+	width: 370px;
 	margin: 0 10px;
-	float: right;
+	float: left;
 }
 
 ul.featured_services h3 {
