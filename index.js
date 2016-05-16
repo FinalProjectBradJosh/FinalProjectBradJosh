@@ -1,6 +1,6 @@
 $("#popup").click(function () {
     var $this = $(this);
-    var $iframe = $("<iframe>").attr("src", $this.data("link")).css({"width": 500, "height": 400,
+    var $iframe = $("<iframe>").attr("src", $this.data("link")).css({"width": 450, "height": 325,
    'align-content': 'center',
     'border': '5px solid #5E8C92',
     'padding': '0.5px',                      
@@ -20,8 +20,8 @@ $("#popup").click(function () {
 
 $(document).ready(function(){
     $(".button_1").click(function(){
-        $(".spacer").css({"padding-top": "260px"});
-        $("ul.featured_services li.service_3").css({"padding-right": "190px"});
+        $(".spacer").css({"padding-top": "250px"});
+        $("ul.featured_services li.service_3").css({"padding-right": "00px"});
     });
          
 });
