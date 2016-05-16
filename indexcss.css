@@ -273,6 +273,10 @@ ul.featured_services li.service_2 h3 {
 	background: url('images/icn_service_2.png') no-repeat; background-position: 0 10px;
 }
 
+ul.featured_services li.service_3 h3{
+	background: url('images/icn_service_3.png') no-repeat; background-position: 0 10px;
+}
+
 ul.featured_services p {
 	border-left: 3px solid #CDE0E4;
 	margin: 20px 0 10px 15px;
