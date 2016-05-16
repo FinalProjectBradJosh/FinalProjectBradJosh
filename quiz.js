@@ -79,7 +79,7 @@ function video()
 $(".popup").click(function () {
     var $this = $(this);
   if(answer1===true&answer2===true&answer3===true){
-    var $iframe = $("<iframe>").attr("src", $this.data("link")).css({"width": 400, "height": 300});
+    var $iframe = $("<iframe>").attr("src", $this.data("link")).css({"width": 400, "height": 300,'align-content': 'center', 'margin':'auto'});
     var $title = $("<h1>").text($this.data("title"));
     $("#video-view").html($title).append($iframe);
     $iframe.wrap("<div class='class-video'>");}
@@ -95,5 +95,3 @@ function init() {
 // End of init() function.
 console.log("page is loaded.");
 window.onload = init;
-
-
