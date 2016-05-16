@@ -296,7 +296,7 @@ ul.featured_services p {
 	font-weight: bold;
 	font-size: 12px;
 	cursor: pointer;
-  margin:auto;
+  margin:0 50px;
 }
 
 .button_1 {
