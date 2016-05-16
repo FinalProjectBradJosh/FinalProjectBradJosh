@@ -175,12 +175,12 @@ article.main_display img {
 }
 
 article.banner_new {
-	position: absolute;
+	position: relative;
 	left: -6px;
 	top: -6px;
 	background: url('feature_banner.png') no-repeat;
-	width: 103px;
-	height: 103px;
+	width: 940px;
+	height: 168px;
 }
 
 article.banner_new p {
