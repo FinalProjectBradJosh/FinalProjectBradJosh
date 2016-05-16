@@ -371,7 +371,7 @@ article.testimonials {
 footer {
   text-align: center;
   margin-top:70px;
-	height: 100px;
+	height: 150px;
 	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
 	color: #5E8C92;
 }
@@ -415,9 +415,10 @@ footer .logo {
 
 .Copyright{
   text-align: center;
-  padding: 42px 0 0 0;
-  margin-left: 130px;
-  height: 40px;
+  padding: 80px 0 0 0;
+  margin-top:80px;
+  margin-left: 150px;
+  height: 60px;
 	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
 	color: #5E8C92;
 }
