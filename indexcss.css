@@ -175,7 +175,7 @@ article.main_display img {
 }
 
 article.banner_new {
-	position: relative;
+	position: absolute;
 	left: 150px;
 	top: 600px;
 	background: url('feature_banner.png') no-repeat;
