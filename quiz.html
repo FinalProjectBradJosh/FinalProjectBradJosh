@@ -1,12 +1,84 @@
 <!DOCTYPE html>
-<html>
+ <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>JS Bin</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="quiz.css">
 </head>
 <body>
-  <p name=P id=P>Quiz Page</p>
+  <form action="" method="post" id="theForm">
+  
+    
+    <table>Word Bank
+  <tr>
+    <td>
+    <p ondragstart="dragStart(event)" draggable="true" id="dragtarget1" data-div="div1" >Clouds</p>       
+    </td>
+
+
+
+    <td>
+    <p ondragstart="dragStart(event)" draggable="true" id="dragtarget2" data-div="div2" >Silver Iodide</p>       
+    </td>
+
+
+    <td>
+  <p ondragstart="dragStart(event)" draggable="true" id="dragtarget3" data-div="div3">10%</p>    
+    </td
+  </tr>
+</table>
+    
+    
+      </br>
+    
+    
+    
+ <p> In order to start cloud seeding what is required to already be present?
+    </p>
+  
+  <div class="droptarget1" id ="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </br>
+  <p id="check1"name = "checker"></p>
+  
+ <p> What is the chemical that is shot into clouds during cloud seeding?
+  </p>
+  
+  <div class="droptarget2" id ="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </br>
+   <p id="check2"name = "checker"></p>
+
+<p>By approximately how much additional rainwater do we get from cloud seeding?
+  </p>
+
+<div class="droptarget3" id ="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </br>
+<p id="check3" name = "checker"></p>
+
+
+
+
+
+
+  
+  
+  
+  
+  <input class="popup" type="submit" value="Submit" id="submit" href="#!" data-link="http://www.youtube.com/embed/zlX7rJv_m0g?autoplay=1&enablejsapi">
+  
+
+<div id="video-view">
+</div>
+  
+  
+  
+  
+  </form>
+ <script src="quiz.js"></script>
 </body>
 </html>
+
+
+
+    
