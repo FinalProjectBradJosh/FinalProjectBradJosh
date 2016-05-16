@@ -1,10 +1,12 @@
 $("#popup").click(function () {
     var $this = $(this);
     var $iframe = $("<iframe>").attr("src", $this.data("link")).css({"width": 500, "height": 400,
-   'position': 'absolute',
-    'right': '0px',
-    'border': '3px solid #5E8C92',
-    'padding': '10px',                                      
+   'align-content': 'center',
+    'border': '5px solid #5E8C92',
+    'padding': '0.5px',                      
+                                                                     
+                                                                     
+                                                                    
     });
 
     
