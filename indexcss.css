@@ -176,8 +176,8 @@ article.main_display img {
 
 article.banner_new {
 	position: relative;
-	left: -100px;
-	top: 400px;
+	left: 150px;
+	top: 600px;
 	background: url('feature_banner.png') no-repeat;
 	width: 940px;
 	height: 168px;
