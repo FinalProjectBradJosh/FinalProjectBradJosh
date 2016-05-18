@@ -429,22 +429,22 @@ footer .logo {
 .Copyright{
   text-align: center;
   padding:2% 0% 2% 0;
-  margin-top: 58%;
+  margin-top: %;
   margin-left: 5%;
   
   height: 4%;
 	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
 	color: #5E8C92;
 }
-#spacer{margin-bottom: -25%;}
+#spacer{margin-bottom: 20%;}
 #centerer{text-align:center;width:60%;margin:auto;}
 #margin{text-align:left;width:60%;margin:auto;}
 #theForm {
     margin: auto;
+    margin-bottom:-8em;
     width: 36%;
     border: 1px solid #66888E;
-    padding: 10px;
-  margin-bottom:-340px;
+    padding: 4%;
 }
 
 .droptarget1 {
@@ -485,4 +485,4 @@ table {
 }
 
 #title{text-align:center;}
-#quizTitle{text-align:center;}
+#quizTitle{text-align:center;margin:auto;padding:5%;}
