@@ -201,7 +201,7 @@ article.feature_text {
 	float: right;
 	width: 40%;
 	margin: 4% 0% 4% 4%;
-  
+  padding: 1em 1em 1em 1em;
 }
 
 article.feature_text h2 {
@@ -413,6 +413,8 @@ footer .logo {
 	margin: -40px 10px 0 0;
 	text-indent: -5000px;
 }
+
+.image{width: 20em; height: 10em; padding:1em 1em 1em 1em;}
 
 .Copyright{
   text-align: center;
