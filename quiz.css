@@ -13,14 +13,14 @@ header, footer, aside, nav, article {display: block;}
 
 /* Essentials */
 
-body {
+body { /*cs selector 1*/
 	background: #F9FCFC;
 	color: #666666;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 }
 
-p {
+p { /*cs selector 2*/
 	line-height: 150%;
 }
 
@@ -29,20 +29,20 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: lighter; /*counteract strong browser anti-aliasing*/
 }
 
-a:link, a:visited {
+a:link, a:visited { /*cs selector 3*/
 	color: #168FAD;
 	text-decoration: none;
 }
 
-.wrapper {
-	width: 1130px;
+.wrapper { /*cs selector 4*/
+	width: 100%;
 	margin:0 auto;
 }
 
 
 
 header {
-	height: 110px;
+	height: 12%;
 }
 
 
@@ -62,13 +62,13 @@ header {
 
 /* Logo */
 
-h1.logo a {
+h1.logo a { /*cs selector 5*/
 	display: block;
-	width: 221px;
-	height: 65px;
+	width: 60%;
+	height: 8%;
 	background: url('logo.png') no-repeat;
 	float: left;
-	margin: 20px 0 0 10px;
+	margin: 2% 5% 5% 1%;
 	text-indent: -5000px;
 }
 
@@ -78,22 +78,22 @@ h1.logo a {
 
 header ul {
 	float: right;
-	margin: 35px 0;
+	margin: 2% 0;
 }
 
 header li {
 	float: left;
 	display: inline-block;
-	width: 90px;
-	height: 36px;
+	width: 8em;
+	height: 3em;
 	margin: 0 10px 0 0;
 }
 
-header li a {
+header li a { /*cs selector 6*/
 	color: #2C6069;
 	display: block;
-	width: 90px;
-	height: 36px;
+	width: 100%;
+	height: 100%;
 	text-align: center;
 	font-weight: bold;
 	line-height: 36px;
@@ -115,7 +115,7 @@ header li a {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DFF0F3');
 }
 
-header li a:hover {
+header li a:hover { /*cs selector 7*/
 	/* Fallback Color */
 	background: #FFFFFF;
 	/* Firefox 3.6+ */
@@ -151,26 +151,34 @@ header li.active a {
 
 /* Main Feature */
 
-section.home_feature {
-	height: 440px;
+section.home_feature { /*cs selector 8*/
+	height: 42em;
 	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
 	-moz-box-shadow: inset 0 5px 9px #66888E; -webkit-box-shadow: inset 0 5px 9px #66888E; box-shadow: inset 0 5px 9px #66888E;
+  
 }
 
-article.main_display {
+article.main_display { /*cs selector 9*/
 	display: block;
 	float: left;
-	position: relative;
-	width: 450px;
-	height: 397px;
-	margin: 20px 0;
+	position: absolute;
+	width: 30%;
+	height: 35%;
+	margin-left: 10%;
+  padding: 1%;
 	background: url('images/feature_display.png') no-repeat;
 }
 
 article.main_display img {
 	position: absolute;
-	top: 23px;
-	left: 19px;
+	top: 2%;
+	left: 0%;
+ /* margin-right: 60%;
+  margin-left:10%*/
+  margin:auto;
+    padding-top:8%;
+    height:80%;
+  width:80%;
   
 }
 
@@ -179,8 +187,8 @@ article.banner_new {
 	left: 170px;
 	top: -60px;
 	background: url('feature_banner.png') no-repeat;
-	width: 940px;
-	height: 168px;
+	width: 85%;
+	height: 10%;
 }
 
 article.banner_new p {
@@ -189,26 +197,26 @@ article.banner_new p {
 
 article.main_display .display_gloss {
 	position: absolute;
-	top: 2px;
-	right: 2px;
-	width: 269px;
-	height: 283px;
+	top: 1%;
+	right: 1%;
+	width: 20%;
+	height: 25%;
 	background: url('images/display_gloss.png') no-repeat;
 }
 
 article.feature_text {
 	float: right;
-	width: 580px;
-	margin: 35px -80px 0px 0px;
-  
+	width: 40%;
+	margin: 4% 15% 4% 40%;
+  padding: 1em 1em 1em 1em;
 }
 
 article.feature_text h2 {
 	font-size: 44px;
 	color: #2C5F66;
 	line-height: 120%;
-	margin: 0 0 20px 0;
-  padding-left: 28px;
+	margin: 0 0 5% 0;
+  padding-left: 3%;
 	text-shadow: 0 1px 0 #F1F7F8;
 }
 
@@ -216,15 +224,18 @@ article.feature_text p {
 	color: #5E8C92;
 	text-shadow: 0 1px 0 #F1F7F8;
   text-align:center;
+  width: 50%;
+  margin-right: 10em;
+  margin-left: 3.3em;
 }
 
 article.feature_text a {
 	display: block;
-	width: 310px;
-	height: 62px;
+	width: 25%;
+	height: 8%;
 	color: #FFFFFF;
 	background: url('images/btn_main_feature.png') no-repeat;
-	margin: 20px 0 0 0;
+	margin: 4% 0 0 0;
 	text-align: center;
 	line-height: 54px;
 	font-family: Pacifico, "Helveitca Neue", Helvetica, Arial, sans-serif;
@@ -248,18 +259,18 @@ article.feature_text a:active {
 
 /* Featured Services */
 
-ul.featured_services {
+ul.featured_services { /*cs selector 10*/
 	clear: both;
-	height: 240px;
-	width: 1280px;
-  position: absolute;
-	margin: auto;
+	height: 25%;
+	width: 85%;
+  position: abosulte;
+	margin-right: 50%;
 	background: url('images/hr_shadow.png') no-repeat bottom;
 }
 
 ul.featured_services li {
-	width: 380px;
-	margin:0px 20px;
+	width: 25%;
+	margin:0px 1%;
 	float: right;
 }
 
@@ -284,13 +295,13 @@ ul.featured_services li.service_3 h3{
 ul.featured_services p {
 	border-left: 3px solid #CDE0E4;
 	margin: -20px 0 10px 15px;
-	padding: 0 0 0 25px;
+	padding: 0 0 0 4%;
 }
 
 .button_1 {
 	display: block;
 	width: 100%; /*was 233*/
-	height: 28px;
+	height: 4%;
 	-moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px;
 	text-align: center;
 	line-height: 28px;
@@ -299,7 +310,7 @@ ul.featured_services p {
 	font-weight: bold;
 	font-size: 12px;
 	cursor: pointer;
-  margin:0px 40px;
+  margin:0px 00px;
 }
 
 .button_1 {
@@ -331,7 +342,7 @@ ul.featured_services p {
 article.about_us_blurb {
 	clear: both;
 	float: left;
-	width: 620px;
+	width: 50%;
 	margin: 20px 10px;
 }
 
@@ -370,8 +381,8 @@ article.testimonials {
 
 footer {
   text-align: center;
-  margin-top:350px;
-	height: 110px;
+  margin-top:25%;
+	height: 13%;
 	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
 	color: #5E8C92;
 }
@@ -386,7 +397,7 @@ footer h4 {
 footer .column {
 	float: left;
 	display: inline_block;
-	width: 300px;
+	width: 25%;
 	margin: 20px 10px;
 }
 
@@ -406,27 +417,31 @@ footer p.copyright_notice {
 
 footer .logo {
 	float: right;
-	width: 221px;
-	height: 65px;
+	width: 20%;
+	height: 8%;
 	background: url('images/logo.png') no-repeat;
 	margin: -40px 10px 0 0;
 	text-indent: -5000px;
 }
 
+.image{width: 90%; height: 60%; padding:10em 10em 25em 1em; margin:20% 10%}
+
 .Copyright{
   text-align: center;
-  padding:60px 0 0 0;
-  margin-top: 90px;
-  margin-left: 145px;
-  height: 50px;
+  padding:2% 0% 2% 0;
+  margin-top: 58%;
+  margin-left: 5%;
+  
+  height: 4%;
 	background: #CDE0E4 url('images/hatch_pattern.png') repeat;
 	color: #5E8C92;
 }
-
-
+#spacer{margin-bottom: -25%;}
+#centerer{text-align:center;width:60%;margin:auto;}
+#margin{text-align:left;width:60%;margin:auto;}
 #theForm {
     margin: auto;
-    width: 30%;
+    width: 36%;
     border: 1px solid #66888E;
     padding: 10px;
   margin-bottom:-340px;
@@ -434,36 +449,36 @@ footer .logo {
 
 .droptarget1 {
      
-    width: 100px; 
-    height: 35px;
-    margin: 15px;
-    padding: 10px;
+    width: 55%; 
+    height: 2em;
+    margin: 15%;
+    padding: 8%;
     border: 1px solid #aaaaaa;
 }
 
 
 .droptarget2 {
     
-    width: 100px; 
-    height: 35px;
-    margin: 15px;
-    padding: 10px;
+    width: 55%; 
+    height: 2em;
+    margin: 15%;
+    padding: 8%;
     border: 1px solid #aaaaaa;
 }
 
 
 .droptarget3 {
     
-    width: 100px; 
-    height: 35px;
-    margin: 15px;
-    padding: 10px;
-    border: 1px solid #aaaaaa;
+    width: 55%; 
+    height: 2em;
+    margin: 15%;
+    padding: 8%;
+    border: 1px solid #aaaaaa;;
 }
 
 table {
     border: 1px solid black;
-  width:40%;
+  width:75%;
   margin: auto;
     height:4em;
   text-align:center;
