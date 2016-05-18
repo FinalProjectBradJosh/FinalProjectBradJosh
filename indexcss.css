@@ -173,8 +173,9 @@ article.main_display img {
 	position: absolute;
 	top: 5%;
 	left: 0%;
-  margin-right: 60%;
-  margin-left:10%
+ /* margin-right: 60%;
+  margin-left:10%*/
+  margin:auto;
     padding-top:10%;
     height:80%;
   width:80%;
